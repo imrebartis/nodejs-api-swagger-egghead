@@ -63,7 +63,7 @@ paths:
       responses:
         200:
           description: "Todo response"
-          schema:
+          schema:""
             $ref: "#/definitions/Todo"
       x-swagger-router-controller: "FindTodoById" 
   /swagger:
